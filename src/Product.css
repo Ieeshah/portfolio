@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(104, 80, 80);
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+align-items: center;
+}
+
+button{
+    position: relative;
+    right: 70%;
+    width: 70%;
+    /* height: 10%; */
+    font-size: 20px;
+   /* justify-content: center;
+    display: flex; */
+
+}
+img{
+    width: 180%;
+    /* margin-top: 15%; */
+}
+h3{
+    font-size: 30px;
+}
+/* img:hover{
+    width: 20rem;
+} */
+div{
+    margin: auto;
+}
+form{
+    /* display: float; */
+    
+    position: absolute;
+    /* float: right; */
+    right: 10%;
+    /* left: 50%; */
+    
+
+}
+form a{
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+}
+
+@media screen and (max-width :768px){
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        
+    }
+    h3{
+        color: red;
+    }
+    img{
+        width: 120%;
+        margin-top: 10%;
+    }
+    
+}
+@media screen and (max-width :400px){
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* margin-top: 10%; */
+        
+        
+        
+    }
+    h3{
+        color: green;
+        padding-top: 5%;
+    }
+    img{
+        width: 150%;
+        margin-top: 10%;
+    }
+    /* .par{
+        display: inline;
+    }
+    .child{
+        display: none;
+    }
+    .par:hover .child{
+        display: block;
+    } */
+    
+}
